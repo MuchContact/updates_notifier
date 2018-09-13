@@ -13,9 +13,7 @@ Redmine::Plugin.register :redmine_updates_notifier do
   url 'http://example.com/path/to/plugin'
   author_url 'http://example.com/about'
 
-  settings :default => {'callback_url' => 'http://example.com/callback/' },
+  settings :default => {'callback_url' => 'http://192.168.101.19:8096/egova/code-review/statis/test' },
       :partial => 'settings/updates_notifier_settings'
 
 end
-
-
